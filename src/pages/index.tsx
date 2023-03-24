@@ -2,8 +2,7 @@ import { GetServerSidePropsContext } from 'next'
 import React from 'react'
 import { services } from '../../data'
 
-const index = ({services}) => {
-  console.log(services)
+const index = () => {
   return (
     <>
       <div>Bye Bye World</div>
@@ -12,11 +11,3 @@ const index = ({services}) => {
 }
 
 export default index
-
-export const getServerSideProps = async (context: GetServerSidePropsContext) => {
-  //calculation
-  
-  return {
-    props: {}
-  }
-}
