@@ -1,4 +1,5 @@
-import { GetServerSidePropsContext, G } from 'next'
+import { GetServerSidePropsContext } from 'next'
+import React from 'react'
 import { services } from '../../data'
 
 const index = ({services}) => {
