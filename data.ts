@@ -79,5 +79,10 @@ export const tools:ISkill[] = [
         Icon: BsCircleFill,
         name: 'Adobe XD',
         level: '70%'
+    },
+    {
+        Icon: BsCircleFill,
+        name: 'Shopify',
+        level: '85%'
     }
 ]
